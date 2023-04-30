@@ -5,3 +5,7 @@ function solution(arr) {
 
     return answer;
 }
+
+function solution2(arr) {
+    return arr.filter((val, idx) => val !== arr[idx + 1]);
+}
