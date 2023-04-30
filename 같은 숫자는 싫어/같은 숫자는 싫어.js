@@ -1,5 +1,5 @@
-function solution1(arr) {
-    const answer = arr.map((val, idx, ar) => {
+function solution(arr) {
+    const answer = arr.filter((val, idx, ar) => {
         return val !== ar[idx + 1];
     });
 
